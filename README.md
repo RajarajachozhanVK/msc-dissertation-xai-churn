@@ -38,19 +38,21 @@ customer records across 66 usable features after cleanup, with ~29% churn.
 
 ## Repository structure
 
+```text
 code/
-├── notebooks/ Day1-5 pipeline + Export_Figures
-│ ├── Day1_Hyperparameter_Tuning.ipynb Model training, SMOTE-in-CV, tuning
-│ ├── Day2_SHAP_Explanations.ipynb TreeSHAP / LinearExplainer
-│ ├── Day3_LIME_Explanations.ipynb LIME + SHAP-vs-LIME teaser
-│ ├── Day4_Evaluation_Metrics.ipynb Four-metric evaluation
-│ ├── Day5_SHAP_Segmentation.ipynb PCA + k-means churn segments
-│ └── Export_Figures.ipynb Regenerates all figures from artefacts
-├── data/ Cell2Cell CSVs (see Data note below)
-├── models/ Trained models (.pkl)
+├── notebooks/          Day1-5 pipeline + Export_Figures
+│   ├── Day1_Hyperparameter_Tuning.ipynb   Model training, SMOTE-in-CV, tuning
+│   ├── Day2_SHAP_Explanations.ipynb        TreeSHAP / LinearExplainer
+│   ├── Day3_LIME_Explanations.ipynb        LIME + SHAP-vs-LIME teaser
+│   ├── Day4_Evaluation_Metrics.ipynb       Four-metric evaluation
+│   ├── Day5_SHAP_Segmentation.ipynb        PCA + k-means churn segments
+│   └── Export_Figures.ipynb                Regenerates all figures from artefacts
+├── data/               Cell2Cell CSVs (see Data note below)
+├── models/             Trained models (.pkl)
 └── outputs/
-├── figures/ 23 dissertation figures (300 DPI PNG)
-└── results/ SHAP/LIME matrices, metrics, segmentation (.csv/.pkl)
+    ├── figures/        23 dissertation figures (300 DPI PNG)
+    └── results/        SHAP/LIME matrices, metrics, segmentation (.csv/.pkl)
+```
 
 ## Reproducing the results
 
