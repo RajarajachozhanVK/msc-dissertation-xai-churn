@@ -1,0 +1,21 @@
+# Core data science
+numpy==2.0.2
+pandas==2.2.2
+scipy==1.16.3
+scikit-learn==1.6.1
+joblib==1.5.3
+
+# Models
+xgboost==3.3.0
+imbalanced-learn==0.14.2
+
+# Explainability
+shap==0.52.0
+lime==0.2.0.1
+
+# Visualisation
+matplotlib==3.10.0
+seaborn==0.13.2
+
+# Dashboard (Phase 9 — Streamlit tool)
+streamlit==1.40.1
