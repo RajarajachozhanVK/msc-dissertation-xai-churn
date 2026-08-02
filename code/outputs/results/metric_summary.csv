@@ -1,0 +1,18 @@
+,0
+agreement/Feature agreement@5,0.1372
+agreement/Rank agreement@5,0.021200000000000004
+agreement/Sign agreement@5,0.13099041533546327
+agreement/Feature agreement@10,0.149
+agreement/Rank agreement@10,0.0144
+agreement/Sign agreement@10,0.18765560165975104
+agreement/Signed rank corr (mean),-0.061308088925999385
+sparsity/SHAP mean active features,28.632
+sparsity/LIME mean active features,48.226
+sparsity/SHAP median,29.0
+sparsity/LIME median,51.0
+fidelity/SHAP deletion-AOPC,0.5814210176467896
+fidelity/LIME deletion-AOPC,0.5377316474914551
+fidelity/Random deletion-AOPC,0.38310492038726807
+stability/SHAP input-stability (cosine),0.4335164671432296
+stability/LIME input-stability (cosine),0.3230816807893799
+stability/LIME seed-stability (cosine),0.46627826702944786
