@@ -74,9 +74,12 @@ The dashboard runs locally and loads the saved models/results (it does not retra
 ```bash
 conda create -n churn-app python=3.11 -y
 conda activate churn-app
-pip install streamlit shap lime xgboost scikit-learn==1.6.1 imbalanced-learn pandas numpy matplotlib seaborn openpyxl
-streamlit run code/app/app.py
+pip install -r requirements.txt
+cd code/app
+streamlit run app.py
 ```
+- **`app/app_v1_backup.py`** is an earlier single-page prototype, retained to
+  document the dashboard's evolution to the current multi-page design.
 
 The app opens at `http://localhost:8501` with three views:
 - **Home** — project overview, KPIs, navigation.
