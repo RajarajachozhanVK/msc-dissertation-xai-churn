@@ -1,0 +1,7 @@
+quantity,mean,ci_low,ci_high,note
+Sparsity - SHAP active features,28.639777000000002,28.179949999999998,29.128,
+Sparsity - LIME active features,48.22905899999999,47.43595,49.03005,
+Sparsity - SHAP minus LIME,-19.589282,-20.4723,-18.668,p=0.0005
+Agreement - feature overlap@5,0.13703339999999997,0.12639999999999998,0.1468,
+Agreement - feature overlap@10,0.1489628,0.14220000000000002,0.156005,
+Agreement - signed rank corr,-0.06157060991545769,-0.07130113975576663,-0.0515444943116585,
