@@ -34,6 +34,8 @@ customer records across ~66 usable features after cleanup, with ~29% churn.
   High-Usage/Handset-Gap — each mapped to a retention strategy. The model under-flags the
   quiet (low-engagement) churners.
 
+**Drive containing all files:** [Click here to access the Google Drive folder](https://drive.google.com/drive/folders/1bGL5MnhGVLS98OJRYXFIms6F1-UID9zn?usp=sharing)
+
 ## Repository structure
 
 ```text
